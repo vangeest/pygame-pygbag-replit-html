@@ -16,7 +16,7 @@
 # html/css/js configuration
 #
 
-hidden=[".config"]
+#hidden=[".config"]
 
 # hosting is currently hardcoded for this language
 # [hosting]
