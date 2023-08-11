@@ -10,7 +10,7 @@
 #    vnc we do not need as our code will run client side because we use pygbag)
 # - Add content of .replit and replit.nix from python to html/css/js 
 #   and integrate redundant content
-#   (The other way around doens't work because html/css/js has a webserver buildin)
+#   (The other way will later prove more succesfularound doens't work because html/css/js has a webserver buildin)
 # - Save the result in a github repo, 
 #   couldn't get it done through replit, work arouund:
 #   create repo in github.com, upload files 
@@ -26,8 +26,11 @@
 #    Python runtime state: core initialized
 #    Traceback (most recent call last):
 #    File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/io.py", line 54, in <module>
-#   cannot fix this, this means pygbag cannot be run, so no compilation of test code
-#   further investigate as I compiled once before succesfull
+#   cannot fix this, however in a python repl I did succeed to run pygbag
+#   so appearenly copying the .replit en .nix doens't do it all 
+#   (it may habe to do with replit automatic package loader)
+#   so I'm going to give it another go by starting with the python repl
+#   and add the server part with python -m http.server
 
 #
 # html/css/js configuration
