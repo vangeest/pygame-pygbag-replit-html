@@ -18,6 +18,7 @@
 
 { pkgs }: {
   deps = [
+    pkgs.python39Packages.pip
     pkgs.nodePackages.vscode-langservers-extracted # html/css/js
     pkgs.nodePackages.typescript-language-server # html/css/js 
     pkgs.python310Full

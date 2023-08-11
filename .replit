@@ -18,6 +18,16 @@
 #   import repo into replit, select language html/css/js
 # - add test game from pygbag in folder mygame
 # - add links in index.html to mygame
+# - in replit shell execute command pip3 install pygbag
+#   when asked, select python39Packages.pip as the nix package to install
+#   running into error: 
+#    /nix/store/95kl4499yaa91j0ja7vwzf5l7r3ly4b2-python3.9-pip-22.2.2
+#    Fatal Python error: init_sys_streams: can't initialize sys standard streams
+#    Python runtime state: core initialized
+#    Traceback (most recent call last):
+#    File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/io.py", line 54, in <module>
+#   cannot fix this, this means pygbag cannot be run, so no compilation of test code
+#   further investigate as I compiled once before succesfull
 
 #
 # html/css/js configuration
