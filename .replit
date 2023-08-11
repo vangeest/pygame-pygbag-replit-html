@@ -16,7 +16,8 @@
 #   create repo in github.com, upload files 
 #   hidden files don't upload, work around: rename .replit ot replit, upload, rename back
 #   import repo into replit, select language html/css/js
-
+# - add test game from pygbag in folder mygame
+# - add links in index.html to mygame
 
 #
 # html/css/js configuration
