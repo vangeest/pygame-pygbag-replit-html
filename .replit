@@ -11,6 +11,12 @@
 # - Add content of .replit and replit.nix from python to html/css/js 
 #   and integrate redundant content
 #   (The other way around doens't work because html/css/js has a webserver buildin)
+# - Save the result in a github repo, 
+#   couldn't get it done through replit, work arouund:
+#   create repo in github.com, upload files 
+#   hidden files don't upload, work around: rename .replit ot replit, upload, rename back
+#   import repo into replit, select language html/css/js
+
 
 #
 # html/css/js configuration
